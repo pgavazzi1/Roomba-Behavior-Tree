@@ -23,13 +23,15 @@ I had TA's Hosseini and Erat help me with python questions, I also have been usi
 
 ## Files:
 
-# roomba_sim.py:
+roomba_sim.py:
+
 Conatins the implmentation of the Roomba behavior tree simulation and an event loop that will run the simulation. By running this file, the user will get to start the simulation and control how the roomba cleans as well as control how the roomba's sensors react. 
     
-# behavior_tree.py:
+behavior_tree.py:
+
 Conatins the class definitions and implementations for the tree class as well as all of the different types of nodes we could encounter which are: task, condition, priority, selection, sequence, until false, timer, and negation.
 
-# test_nodes.py:
+test_nodes.py:
 Conatins the tests for all of the node classes I created. See the testing section for more details
 
 
@@ -73,7 +75,7 @@ Along these lines, I have also stored the nodes previous return values and if th
        of itd indibidual parts functioned, I did not write any tests for the
        tree class in this file however. To run this file:
        
-    - Run with spyder
-    - Run in terminal with: python test_nodes.py
+            - Run with spyder
+            - Run in terminal with: python test_nodes.py
     
 The test creates a couple nodes from each of the possible 8 nodes we could encounter: task, condition, priority, selection, sequence, until false, timer, and negation. No need for user input, the program will run and the user can look at the input to make sure it is running properly based on the messages it outputs.
