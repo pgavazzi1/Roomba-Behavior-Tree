@@ -38,7 +38,9 @@ Conatins the tests for all of the node classes I created. See the testing sectio
 
 
 # run: 
-To run the main program, run the roomba_sim.py and follow these instructions:
+To run the main program, run:
+ 
+        python roomba_sim.py 
     
 I ran the simulation with spyder when I was building it by simply pressing the play button while on the file roomba_sim.py. You can also  run it in terminal with: python roomba_sim.py
             
@@ -75,7 +77,6 @@ Along these lines, I have also stored the nodes previous return values and if th
        of itd indibidual parts functioned, I did not write any tests for the
        tree class in this file however. To run this file:
        
-            - Run with spyder
-            - Run in terminal with: python test_nodes.py
+         python test_nodes.py
     
 The test creates a couple nodes from each of the possible 8 nodes we could encounter: task, condition, priority, selection, sequence, until false, timer, and negation. No need for user input, the program will run and the user can look at the input to make sure it is running properly based on the messages it outputs.
