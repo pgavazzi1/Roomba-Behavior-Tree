@@ -1,10 +1,5 @@
-/*********************************************************
-* HW1: Behavior trees
-* Comp 131
-* README
-* By Patrick Gavazzi (pgavaz01)
-*
-*********************************************************/
+## Behavior trees
+COMP 131, By Patrick Gavazzi
 
 
 
